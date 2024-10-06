@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { Route, Router, Routes } from 'react-router-dom'
-import Home from './Pages/Home'
+// import Home from 'src/pages/Home'
 import './index.css'
 import Sale from './pages/Sale'
+import Home from './pages/Home'
+// import Sale from './pages/Sale'
 
 function App() {
   
