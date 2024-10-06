@@ -1,5 +1,5 @@
 import Card from "../Components/Card";
-import NavBar from "../Components/Navbar";
+import NavBar from "../Components/NavBar";
 
 
 
