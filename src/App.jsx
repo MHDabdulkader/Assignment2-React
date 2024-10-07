@@ -4,6 +4,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 import './index.css'
 import Sale from './pages/Sale'
 import Home from './pages/Home'
+import Collection from './pages/Collection'
 // import Sale from './pages/Sale'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/sale" element={<Sale/>}/>
+        <Route path="/collection" element={<Collection/>}/>
       </Routes>
       
 
